@@ -39,44 +39,44 @@ button {
 /* #endregion base */
 
 /* #region common */
-.site-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #4d5ae5; /* Убедитесь, что используется явный цвет без переменных */
+  color: #4d5ae5; /* Явный цвет без переменных */
 }
-.site-logo--dark {
+.logo-dark {
   color: var(--dark);
 }
-.site-logo--light {
+.logo-light {
   color: var(--light);
 }
 /* #endregion common */
 
 /* #region header */
-.site-nav__link {
+.nav-link {
   font-weight: 500;
   color: var(--dark);
 }
-.site-nav__link:hover,
-.site-nav__link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--pressed-state);
 }
-.site-nav__link:active {
+.nav-link:active {
   color: var(--pressed-state);
   text-decoration: underline;
 }
-.contact-info {
+.contacts {
   font-style: normal;
 }
-.contact-info__link {
+.contacts-link {
   color: var(--text);
 }
-.contact-info__link:hover,
-.contact-info__link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--pressed-state);
 }
 /* #endregion header */
@@ -85,7 +85,7 @@ button {
 .hero {
   background-color: var(--dark);
 }
-.hero__title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -93,38 +93,38 @@ button {
   text-align: center;
   color: var(--white-bg);
 }
-.hero__btn {
+.hero-btn {
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
   color: var(--white-bg);
   background-color: var(--primary-brand);
 }
-.hero__btn:hover,
-.hero__btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   font-weight: 600;
   background-color: var(--pressed-state);
 }
-.hero__btn:active {
+.hero-btn:active {
   background-color: var(--pressed-state);
 }
 /* #endregion hero */
 
-/* #region benefits */
-.benefits__subtitle {
+/* #region features */
+.features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-/* #endregion benefits */
+/* #endregion features */
 
 /* #region team */
 .team {
   background-color: var(--light);
 }
-.team__title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -133,23 +133,23 @@ button {
   text-align: center;
   color: var(--dark);
 }
-.team__subtitle {
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.team__item {
+.team-member {
   background-color: var(--white-bg);
 }
-.team__desc {
+.team-role {
   letter-spacing: 0.02em;
 }
 /* #endregion team */
 
 /* #region portfolio */
-.portfolio__title {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -158,7 +158,7 @@ button {
   text-transform: capitalize;
   color: var(--dark);
 }
-.portfolio__subtitle {
+.portfolio-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -168,10 +168,10 @@ button {
 /* #endregion portfolio */
 
 /* #region footer */
-.site-footer {
+.footer {
   background-color: var(--dark);
 }
-.site-footer__text {
+.footer-text {
   color: var(--light);
 }
 /* #endregion footer */
